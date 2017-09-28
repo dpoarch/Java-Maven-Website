@@ -1,0 +1,26 @@
+0    [main] DEBUG com.amazonaws.AmazonWebServiceClient  - Internal logging succesfully configured to commons logger: true
+548  [main] DEBUG com.amazonaws.internal.config.InternalConfig  - Configuration override awssdk_config_override.json not found.
+0    [main] DEBUG com.amazonaws.AmazonWebServiceClient  - Internal logging succesfully configured to commons logger: true
+153  [main] DEBUG com.amazonaws.internal.config.InternalConfig  - Configuration override awssdk_config_override.json not found.
+0    [main] DEBUG com.amazonaws.AmazonWebServiceClient  - Internal logging succesfully configured to commons logger: true
+148  [main] DEBUG com.amazonaws.internal.config.InternalConfig  - Configuration override awssdk_config_override.json not found.
+0    [main] DEBUG com.amazonaws.AmazonWebServiceClient  - Internal logging succesfully configured to commons logger: true
+257  [main] DEBUG com.amazonaws.internal.config.InternalConfig  - Configuration override awssdk_config_override.json not found.
+0    [main] DEBUG com.amazonaws.AmazonWebServiceClient  - Internal logging succesfully configured to commons logger: true
+231  [main] DEBUG com.amazonaws.internal.config.InternalConfig  - Configuration override awssdk_config_override.json not found.
+0    [main] DEBUG com.amazonaws.internal.config.InternalConfig  - Configuration override awssdk_config_override.json not found.
+0    [main] DEBUG com.amazonaws.AmazonWebServiceClient  - Internal logging succesfully configured to commons logger: true
+156  [main] DEBUG com.amazonaws.internal.config.InternalConfig  - Configuration override awssdk_config_override.json not found.
+0    [main] DEBUG com.amazonaws.AmazonWebServiceClient  - Internal logging succesfully configured to commons logger: true
+159  [main] DEBUG com.amazonaws.internal.config.InternalConfig  - Configuration override awssdk_config_override.json not found.
+0    [main] DEBUG com.amazonaws.AmazonWebServiceClient  - Internal logging succesfully configured to commons logger: true
+149  [main] DEBUG com.amazonaws.internal.config.InternalConfig  - Configuration override awssdk_config_override.json not found.
+0    [main] DEBUG com.amazonaws.AmazonWebServiceClient  - Internal logging succesfully configured to commons logger: true
+148  [main] DEBUG com.amazonaws.internal.config.InternalConfig  - Configuration override awssdk_config_override.json not found.
+1106 [main] DEBUG com.amazonaws.metrics.AwsSdkMetrics  - Admin mbean registered under com.amazonaws.management:type=AwsSdkMetrics
+1177 [main] DEBUG com.amazonaws.request  - Sending Request: POST https://email.us-east-1.amazonaws.com / Parameters: ({"Action":["SendEmail"],"Version":["2010-12-01"],"Source":["support@hubzonetalent.com"],"Destination.ToAddresses.member.1":["delacruzjeffrey1991@gmail.com"],"Message.Subject.Data":["Amazon SES test (AWS SDK for Java)"],"Message.Body.Text.Data":["This email was sent through Amazon SES by using the AWS SDK for Java."]}Headers: (User-Agent: aws-sdk-java/1.10.76 Windows_7/6.1 Java_HotSpot(TM)_Client_VM/20.45-b01/1.6.0_45, amz-sdk-invocation-id: 5eebe8d6-1859-47d3-a60e-e08bb4ad7240, ) 
+1177 [main] DEBUG com.amazonaws.auth.AWSCredentialsProviderChain  - Unable to load credentials from EnvironmentVariableCredentialsProvider: Unable to load AWS credentials from environment variables (AWS_ACCESS_KEY_ID (or AWS_ACCESS_KEY) and AWS_SECRET_KEY (or AWS_SECRET_ACCESS_KEY))
+1178 [main] DEBUG com.amazonaws.auth.AWSCredentialsProviderChain  - Unable to load credentials from SystemPropertiesCredentialsProvider: Unable to load AWS credentials from Java system properties (aws.accessKeyId and aws.secretKey)
+1180 [main] DEBUG com.amazonaws.auth.AWSCredentialsProviderChain  - Unable to load credentials from com.amazonaws.auth.profile.ProfileCredentialsProvider@c68a98: AWS credential profiles file not found in the given path: C:\Users\leah_ganda\.aws\credentials
+1190 [main] DEBUG com.amazonaws.internal.EC2MetadataClient  - Connecting to EC2 instance metadata service at URL: http://169.254.169.254/latest/meta-data/iam/security-credentials/
+3232 [main] DEBUG com.amazonaws.auth.AWSCredentialsProviderChain  - Unable to load credentials from InstanceProfileCredentialsProvider: Unable to load credentials from Amazon EC2 metadata service
